@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    text-decoration: none;
+}
+:root{
+    --standard:#fff;
+    --bluecolor:#5b26d4;
+    --blackcolor:rgb(32, 30, 30);
+
+}
+body{
+    padding: 5px;
+}
+
+.presentText{
+  padding:  30px;
+    text-align: center;
+    background-image: url(images/Back.jpg);
+    background-size: cover;
+    border-radius: 0 0 10px 10px;
+    text-transform: uppercase;
+}
+.p1{
+    color: var(--standard);
+    margin-bottom:-5px ;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+
+}
+.p2{
+    color: var(--standard);
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.p3{
+    text-transform: uppercase;
+    padding: 5px 50px;
+    background-image: url(images/backte.jpg);
+    background-size: cover;
+    color: rgb(233, 224, 236);
+    font-weight: bold;border-radius: 5px;
+    margin: 0 50px;
+    font-size: 1.3rem;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.image img{
+    height: 80px;
+    padding: 10px;
+    margin: 20px 20px 20px 10vw;
+    border: #ffffff solid 5px;
+    border-radius: 10px;
+    background-image: url(images/bhj.jpg);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.395);
+}
+.profileText h3{
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    text-transform: uppercase;
+}
+.profileText p{
+    font-size: 0.8rem;
+    color: #5b26d4;
+    text-transform: uppercase;
+    
+}
+.description{
+    padding: 0 10vw;
+    
+}
+.pt2{
+   color: #5b26d4;
+}
+.pt1{margin-bottom: 20px;
+   font-size: 1.2rem; 
+   color: black;
+}
+
+hr{
+    width: 60%;
+    padding: 1px 0;
+    color: #5b26d4;
+    background-color: #5b26d4;
+}
+.linkItem div{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    margin: 5vw 10vw;
+    justify-content: center;
+    background-color: #f0eef4;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.linkIcon{
+    height: 30px;
+
+}
+
+.linkText{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+}
+
+.linkItem div:hover{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    margin: 5vw 10vw;
+    justify-content: center;
+    background-color: #f0eef4;
+    padding: 20px;
+    border-radius: 10px;
+    transform: translateY(10px);
+
+}
